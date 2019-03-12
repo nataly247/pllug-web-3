@@ -1,20 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Footer from './Footer'
-import VisibleTodoList from './TodoList' // should be container
-
-const passProps = {
-  filteredTodos: [{
-    id: 0,
-    completed: false,
-    text: 'Use Redux'
-  }],
-  actions: {
-    completeTodo: () => {},
-    deleteTodo: () => {},
-    editTodo: () => {}
-  }
-};
+import VisibleTodoList from '../containers/VisibleTodoList'
 
 const MainSection = ({ todosCount, completedCount, actions }) =>
   (
@@ -31,7 +18,7 @@ const MainSection = ({ todosCount, completedCount, actions }) =>
           <label onClick={actions.completeAllTodos}/>
         </span>
       }
-      <VisibleTodoList {...passProps} />
+      <VisibleTodoList />
       {
         !!todosCount &&
         <Footer

@@ -1,0 +1,7 @@
+export const ADD_TODO = 'ADD_TODO';
+export const EDIT_TODO = 'EDIT_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const MARK_AS_COMPLETED = 'MARK_AS_COMPLETED';
+export const MARK_ALL_AS_COMPLETED = 'MARK_ALL_AS_COMPLETED';
+export const CLEAR_ALL_COMPLETED = 'CLEAR_ALL_COMPLETED';
+export const FILTER_BY_STATUS = 'FILTER_BY_STATUS';
