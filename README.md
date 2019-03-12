@@ -1,3 +1,14 @@
+## Tasks to be done
+
+### Add functionality for:
+1. Edit task
+2. Delete task
+3. Mark as completed
+4. Mark all as completed 
+5. Clear all completed
+6. Filter by status
+7. Uncompleted tasks counter
+
 ## Available Scripts
 
 In the project directory, you can run:
